@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>FOOSESHOES</title>
+    <meta charset="UTF-8">
+    <link href="css/style.min.css" rel="stylesheet">
+</head>
+
+<body class="page-body">
+    <header class="page-header">
+        <div class="top-header">
+            <div class="top-header__wrapper  wrapper  wrapper--flex">
+                <div class="top-header__logo">
+                    <a href="index.html" class="top-header__image">
+                        <img src="image/logo.png" alt="FOOSESHOES" width="156" height="20">
+                    </a>
+                </div>
+                <div class="top-header__user-block">
+                    <form action="#" class="top-header__form" method="GET">
+                        <label for="header-search" class="top-header__search" id="search-btn">search</label>
+                        <input type="search" class="top-header__search-input" name="search" id="header-search" placeholder="Enter request">
+                    </form>
+                    <a href="#" class="top-header__user-login">LOGIN or REGISTER</a>
+                </div>
+            </div>
+        </div>
+        <nav class="main-nav wrapper  wrapper--flex">
+            <ul class="main-nav__menu">
+                <li class="main-nav__item"><a href="index.html" class="main-nav__link">Home</a></li>
+                <li class="main-nav__item"><a class="main-nav__link">Products</a></li>
+                <li class="main-nav__item"><a href="#" class="main-nav__link">About</a></li>
+                <li class="main-nav__item"><a href="#" class="main-nav__link">Pages</a></li>
+                <li class="main-nav__item"><a href="#" class="main-nav__link">Blog</a></li>
+                <li class="main-nav__item"><a href="#" class="main-nav__link">Contact</a></li>
+            </ul>
+            <div class="user-block">
+                <div class="user-block__item">
+                    <a href="#" class="user-block__link user-block__link--wishlist">30</a>
+                </div>
+                <div class="user-block__item">
+                    <a href="#" class="user-block__link user-block__link--cart ">0</a>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <main class="page-main">
+        <div class="preview">
+            <div class="preview__wrapper  wrapper">
+                <span class="preview__price">$145,99</span>
+                <h2 class="preview__title">Pink Shoes
+                    <span class="preview__text">2013 Collection</span>
+                </h2>
+                <p class="preview__desc">Nunc non fermentum nunc. Sed ut ante eget leo tempor consequat sit amet eu orci. Donec dignissim dolor eget..</p>
+            </div>
+        </div>
+        <div class="shop-by">
+            <div class="shop-by__wrapper  wrapper  wrapper--flex">
+                <h2 class="shop-by__title">Shop by</h2>
+                <ul class="shop-by__list">
+                    <li class="shop-by__item">
+                        <a href="#" class="shop-by__link  shop-by__link--brands">Brands</a>
+                        <ul class="shop-by__inner-list">
+                            <li class="shop-by__inner-item">
+                                <a href="#" class="shop-by__inner-link">Buffalo Decollete</a>
+                            </li>
+                            <li class="shop-by__inner-item">
+                                <a href="#" class="shop-by__inner-link">Even&amp;Odd</a>
+                            </li>
+                            <li class="shop-by__inner-item">
+                                <a href="#" class="shop-by__inner-link">Prada</a>
+                            </li>
+                            <li class="shop-by__inner-item">
+                                <a href="#" class="shop-by__inner-link">Casadei</a>
+                            </li>
+                            <li class="shop-by__inner-item">
+                                <a href="#" class="shop-by__inner-link">Mellow Yellow</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="shop-by__item">
+                        <a href="#" class="shop-by__link">Categories</a>
+                    </li>
+                    <li class="shop-by__item">
+                        <a href="#" class="shop-by__link">Price</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <section class="catalog  catalog--products  wrapper  wrapper--flex">
+            <h2 class="catalog__title">All Products</h2>
+            <ul class="breadcrumbs">
+                <li class="breadcrumbs__item"><a href="index.html" class="breadcrumbs__link">Home</a></li>
+                <li class="breadcrumbs__item  breadcrumbs__arrow">&gt;</li>
+                <li class="breadcrumbs__item"><a class="breadcrumbs__link">All Products</a></li>
+            </ul>
+            <div class="catalog__filter">
+                <p class="catalog__filter-title">View as</p>
+                <button class="catalog__sort-button  catalog__sort-button--rect" type="button" id="size-4"></button>
+                <button class="catalog__sort-button  catalog__sort-button--list" type="button" id="size-list"></button>
+                <form class="catalog__select" action="#" method="#">
+                    <select class="catalog__select-sort">
+                        <option value="Sort alphabetically">Sort alphabetically</option>
+                    </select>
+                </form>
+            </div>
+            <div class="catalog__goods  catalog__goods--border">
+                <article class="catalog__item">
+                    <div class="catalog__image"><img src="image/item-1.jpg" alt="Изображение товара" width="300" height="220"></div>
+                    <div class="catalog__wrapper">
+                        <p class="catalog__price">$145,99</p>
+                        <p class="catalog__item-name">Even&amp;Odd</p>
+                        <div class="catalog__user">
+                            <a href="#" class="catalog__inner-item catalog__inner-item--watch">Watch</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--wishlist">Wishlist</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--share">Share</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--cart">Cart</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="catalog__item  catalog__item--on-sale">
+                    <div class="catalog__image"><img src="image/item-2.jpg" alt="Изображение товара" width="300" height="220"></div>
+                    <div class="catalog__wrapper">
+                        <p class="catalog__price">$145,99</p>
+                        <p class="catalog__item-name">Even&amp;Odd</p>
+                        <div class="catalog__user">
+                            <a href="#" class="catalog__inner-item catalog__inner-item--watch">Watch</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--wishlist">Wishlist</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--share">Share</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--cart">Cart</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="catalog__item">
+                    <div class="catalog__image"><img src="image/item-3.jpg" alt="Изображение товара" width="300" height="220"></div>
+                    <div class="catalog__wrapper">
+                        <p class="catalog__price">$145,99</p>
+                        <p class="catalog__item-name">Buffalo Decollete</p>
+                        <div class="catalog__user">
+                            <a href="#" class="catalog__inner-item catalog__inner-item--watch">Watch</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--wishlist">Wishlist</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--share">Share</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--cart">Cart</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="catalog__item">
+                    <div class="catalog__image"><img src="image/item-4.jpg" alt="Изображение товара" width="300" height="220"></div>
+                    <div class="catalog__wrapper">
+                        <p class="catalog__price">$145,99</p>
+                        <p class="catalog__item-name">Even&amp;Odd</p>
+                        <div class="catalog__user">
+                            <a href="#" class="catalog__inner-item catalog__inner-item--watch">Watch</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--wishlist">Wishlist</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--share">Share</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--cart">Cart</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="catalog__item">
+                    <div class="catalog__image"><img src="image/item-5.jpg" alt="Изображение товара" width="300" height="220"></div>
+                    <div class="catalog__wrapper">
+                        <p class="catalog__price">$145,99</p>
+                        <p class="catalog__item-name">Even&amp;Odd</p>
+                        <div class="catalog__user">
+                            <a href="#" class="catalog__inner-item catalog__inner-item--watch">Watch</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--wishlist">Wishlist</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--share">Share</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--cart">Cart</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="catalog__item  catalog__item--stock">
+                    <div class="catalog__image"><img src="image/item-6.jpg" alt="Изображение товара" width="300" height="220"></div>
+                    <div class="catalog__wrapper">
+                        <p class="catalog__price">$145,99</p>
+                        <p class="catalog__item-name">Buffalo Decollete</p>
+                        <div class="catalog__user">
+                            <a href="#" class="catalog__inner-item catalog__inner-item--watch">Watch</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--wishlist">Wishlist</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--share">Share</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--cart">Cart</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="catalog__item">
+                    <div class="catalog__image"><img src="image/item-1.jpg" alt="Изображение товара" width="300" height="220"></div>
+                    <div class="catalog__wrapper">
+                        <p class="catalog__price">$145,99</p>
+                        <p class="catalog__item-name">Even&amp;Odd</p>
+                        <div class="catalog__user">
+                            <a href="#" class="catalog__inner-item catalog__inner-item--watch">Watch</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--wishlist">Wishlist</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--share">Share</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--cart">Cart</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="catalog__item  catalog__item--on-sale">
+                    <div class="catalog__image"><img src="image/item-2.jpg" alt="Изображение товара" width="300" height="220"></div>
+                    <div class="catalog__wrapper">
+                        <p class="catalog__price">$145,99</p>
+                        <p class="catalog__item-name">Even&amp;Odd</p>
+                        <div class="catalog__user">
+                            <a href="#" class="catalog__inner-item catalog__inner-item--watch">Watch</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--wishlist">Wishlist</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--share">Share</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--cart">Cart</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="catalog__item">
+                    <div class="catalog__image"><img src="image/item-3.jpg" alt="Изображение товара" width="300" height="220"></div>
+                    <div class="catalog__wrapper">
+                        <p class="catalog__price">$145,99</p>
+                        <p class="catalog__item-name">Buffalo Decollete</p>
+                        <div class="catalog__user">
+                            <a href="#" class="catalog__inner-item catalog__inner-item--watch">Watch</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--wishlist">Wishlist</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--share">Share</a>
+                            <a href="#" class="catalog__inner-item catalog__inner-item--cart">Cart</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="addon  wrapper">
+            <div class="addon__wrapper">
+                <article class="addon__item">
+                    <h3 class="addon__title">Free Shipping</h3>
+                    <p class="addon__desc">Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, </p>
+                </article>
+                <article class="addon__item">
+                    <h3 class="addon__title">Testimonials</h3>
+                    <p class="addon__desc">vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, vehicula id dictum sit
+                        <a href="#" class="addon_link">[...]</a>
+                    </p>
+                    <span class="addon__author"> - John Doe - </span>
+                </article>
+                <article class="addon__item news">
+                    <h3 class="addon__title">Blog news</h3>
+                    <a href="#" class="news__present ">
+                        <span class="news__date">Apr <span  class="news__date-number">01</span></span>
+                        <h4 class="news__title">Nice & clean. The best for you blog!</h4>
+                        <p class="news__desc">Vivamus metus turpis, bibendum vitae euismod vel.</p>
+                    </a>
+                    <a href="#" class="news__present ">
+                        <span class="news__date">Apr <span class="news__date-number">01</span></span>
+                        <h4 class="news__title">What an Ecommerce theme!</h4>
+                        <p class="news__desc">Vivamus metus turpis, bibendum vitae euismod vel.</p>
+                    </a>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <section class="widget">
+            <div class="widget__wrapper  wrapper  wrapper--flex">
+                <article class="widget__item">
+                    <h3 class="widget__title">Text Widget</h3>
+                    <div class="widget__content">
+                        <p class="widget__text">
+                            Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
+                            eget lacinia odio sem nec elit.
+                        </p>
+                    </div>
+                </article>
+                <article class="widget__item">
+                    <h3 class="widget__title">Twitter Widget</h3>
+                    <div class="widget__content twitter">
+                        <p class="twitter__msg">
+                            <a href="#" class="twitter__atreply">@ericafustero</a> Why thank you. Your work looks awesome by the way! <a href="#" class="twitter__atreply">@treemelody</a>
+                            <span class="twitter__timestamp">19 days ago</span>
+                        </p>
+                        <p class="twitter__msg">
+                            <a href="#" class="twitter__atreply">@roymarvelous</a> You can seek a refund through TF if it is not as advertised - but it is :)
+                            <a href="#" class="twitter__atreply"></a>
+                            <span class="twitter__timestamp">21 days ago</span>
+                        </p>
+                    </div>
+                </article>
+                <article class="widget__item">
+                    <h3 class="widget__title">Flickr Widget</h3>
+                    <div class="widget__content">
+                        <img src="image/flickr_image.png" alt="Flickr" class="flickr__gallery" width="244" height="121">
+                    </div>
+                </article>
+            </div>
+        </section>
+        <div class="feedback  wrapper  wrapper--flex">
+            <div class="feedback__newsletter">
+                <form action="" class="feedback__form">
+                    <label class="feedback__label">
+                        Введите ваш e-mail
+                        <input type="email" name="email" class="feedback__email" placeholder="Enter email for newsletter">
+                    </label>
+                    <button class="feedback__submit" type="submit">&rsaquo;</button>
+                </form>
+            </div>
+            <div class="feedback__items">
+                <a href="#" class="feedback__link  feedback__link--fb">Facebook</a>
+                <a href="#" class="feedback__link  feedback__link--tw">Twitter</a>
+                <a href="#" class="feedback__link  feedback__link--g">Google+</a>
+                <a href="#" class="feedback__link  feedback__link--in">LinkedIn</a>
+                <a href="#" class="feedback__link  feedback__link--flickr">flickr</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="copyright__wrapper  wrapper  wrapper--flex">
+                <p class="copyright__text">
+                    Copyright © Fooseshoes 2013. Designed by EnzoLiVolti.
+                </p>
+                <ul class="copyright__menu">
+                    <li class="copyright__item"><a href="index.html" class="copyright__link">Home</a> /</li>
+                    <li class="copyright__item"><a href="#" class="copyright__link">Support</a> /</li>
+                    <li class="copyright__item"><a href="#" class="copyright__link">Terms and Condition</a> /</li>
+                    <li class="copyright__item"><a href="#" class="copyright__link">Faqs</a> /</li>
+                    <li class="copyright__item"><a href="#" class="copyright__link">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
